@@ -1,0 +1,6 @@
+C:\Sfwimport_a_valider\sfwServiceTache\wsCtrlTache\bin\wsCtrlTache.dll
+C:\Sfwimport_a_valider\sfwServiceTache\wsCtrlTache\bin\wsCtrlTache.pdb
+C:\Sfwimport_a_valider\sfwServiceTache\wsCtrlTache\bin\log4net.dll
+C:\Sfwimport_a_valider\sfwServiceTache\wsCtrlTache\obj\Debug\ResolveAssemblyReference.cache
+C:\Sfwimport_a_valider\sfwServiceTache\wsCtrlTache\obj\Debug\wsCtrlTache.dll
+C:\Sfwimport_a_valider\sfwServiceTache\wsCtrlTache\obj\Debug\wsCtrlTache.pdb

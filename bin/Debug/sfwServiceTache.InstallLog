@@ -1,0 +1,723 @@
+﻿Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Une exception s'est produite lors de la désinstallation du programme d'installation System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Accès au registre demandé non autorisé.
+Une exception s'est produite lors de la désinstallation. Cette exception est ignorée et la désinstallation se poursuit. Cependant, l'application ne sera pas totalement désinstallée une fois la désinstallation terminée.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Restauration de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Restauration de l'état précédent du journal des événements pour la source sfwServiceTache.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Une exception s'est produite lors de la désinstallation du programme d'installation System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Accès au registre demandé non autorisé.
+Une exception s'est produite lors de la désinstallation. Cette exception est ignorée et la désinstallation se poursuit. Cependant, l'application ne sera pas totalement désinstallée une fois la désinstallation terminée.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Restauration de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Restauration de l'état précédent du journal des événements pour la source sfwServiceTache.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Restauration de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Restauration de l'état précédent du journal des événements pour la source sfwServiceTache.
+Une exception s'est produite lors de la phase de restauration du programme d'installation System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: La source est introuvable mais certains ou l'ensemble des journaux des événements n'ont pas pu faire l'objet d'une recherche. Journaux inaccessibles : Security.
+Une exception s'est produite lors de la phase de restauration de l'installation. Cette exception est ignorée et la restauration se poursuit. Cependant, l'ordinateur ne sera pas totalement restauré à son état initial à la fin de la restauration.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Restauration de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Restauration de l'état précédent du journal des événements pour la source sfwServiceTache.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Avertissement : la source sfwServiceTache n'est pas inscrite sur l'ordinateur local.
+Le service sfwServiceTache est en cours de suppression du système...
+Une exception s'est produite lors de la désinstallation du programme d'installation System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: Le service spécifié n’existe pas en tant que service installé
+Une exception s'est produite lors de la désinstallation. Cette exception est ignorée et la désinstallation se poursuit. Cependant, l'application ne sera pas totalement désinstallée une fois la désinstallation terminée.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Une exception s'est produite lors de la désinstallation du programme d'installation System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Accès au registre demandé non autorisé.
+Une exception s'est produite lors de la désinstallation. Cette exception est ignorée et la désinstallation se poursuit. Cependant, l'application ne sera pas totalement désinstallée une fois la désinstallation terminée.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Tentative d'arrêt du service sfwServiceTache.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Avertissement : la source sfwServiceTache n'est pas inscrite sur l'ordinateur local.
+Le service sfwServiceTache est en cours de suppression du système...
+Une exception s'est produite lors de la désinstallation du programme d'installation System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: Le service spécifié n’existe pas en tant que service installé
+Une exception s'est produite lors de la désinstallation. Cette exception est ignorée et la désinstallation se poursuit. Cependant, l'application ne sera pas totalement désinstallée une fois la désinstallation terminée.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Installation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Installation du service sfwServiceTache en cours...
+Le service sfwServiceTache a été installé avec succès.
+Création d'une source EventLog sfwServiceTache dans le journal Application...
+Validation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Une exception s'est produite lors de la désinstallation du programme d'installation System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Accès au registre demandé non autorisé.
+Une exception s'est produite lors de la désinstallation. Cette exception est ignorée et la désinstallation se poursuit. Cependant, l'application ne sera pas totalement désinstallée une fois la désinstallation terminée.
+Désinstallation de l'assembly 'D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.exe
+   logfile = D:\Sfwimport_a_valider\sfwServiceTache\bin\Debug\sfwServiceTache.InstallLog
+Suppression de la source EventLog sfwServiceTache.
+Le service sfwServiceTache est en cours de suppression du système...
+Le service sfwServiceTache a été retiré avec succès du système.
