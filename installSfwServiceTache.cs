@@ -8,7 +8,7 @@ using System.Configuration.Install;
 namespace sfwServiceTache
 {
     [RunInstaller(true)]
-    public partial class installSfwServiceTache : System.Configuration.Install.Installer
+    public partial class installSfwServiceTache : Installer
     {
         public installSfwServiceTache()
         {
