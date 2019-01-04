@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="updateXmlSetting">
+        <s:complexType />
+      </s:element>
+      <s:element name="updateXmlSettingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updateXmlSettingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setFilePathInXlm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cfg_fichierid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pathToFile" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setFilePathInXlmResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="setFilePathInXlmResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="returnFieldInXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cfg_fichierid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="returnFieldInXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="returnFieldInXmlResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TacheImportTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tacheid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TacheImportTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TacheImportTestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TacheImport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tacheid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TacheImportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TacheImportResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EcritureFichierTxtDistant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sourceText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cfgfichierid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EcritureFichierTxtDistantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EcritureFichierTxtDistantResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="updateXmlSettingSoapIn">
+    <wsdl:part name="parameters" element="tns:updateXmlSetting" />
+  </wsdl:message>
+  <wsdl:message name="updateXmlSettingSoapOut">
+    <wsdl:part name="parameters" element="tns:updateXmlSettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="setFilePathInXlmSoapIn">
+    <wsdl:part name="parameters" element="tns:setFilePathInXlm" />
+  </wsdl:message>
+  <wsdl:message name="setFilePathInXlmSoapOut">
+    <wsdl:part name="parameters" element="tns:setFilePathInXlmResponse" />
+  </wsdl:message>
+  <wsdl:message name="returnFieldInXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:returnFieldInXml" />
+  </wsdl:message>
+  <wsdl:message name="returnFieldInXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:returnFieldInXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="TacheImportTestSoapIn">
+    <wsdl:part name="parameters" element="tns:TacheImportTest" />
+  </wsdl:message>
+  <wsdl:message name="TacheImportTestSoapOut">
+    <wsdl:part name="parameters" element="tns:TacheImportTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="TacheImportSoapIn">
+    <wsdl:part name="parameters" element="tns:TacheImport" />
+  </wsdl:message>
+  <wsdl:message name="TacheImportSoapOut">
+    <wsdl:part name="parameters" element="tns:TacheImportResponse" />
+  </wsdl:message>
+  <wsdl:message name="EcritureFichierTxtDistantSoapIn">
+    <wsdl:part name="parameters" element="tns:EcritureFichierTxtDistant" />
+  </wsdl:message>
+  <wsdl:message name="EcritureFichierTxtDistantSoapOut">
+    <wsdl:part name="parameters" element="tns:EcritureFichierTxtDistantResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsimportSoap">
+    <wsdl:operation name="updateXmlSetting">
+      <wsdl:input message="tns:updateXmlSettingSoapIn" />
+      <wsdl:output message="tns:updateXmlSettingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setFilePathInXlm">
+      <wsdl:input message="tns:setFilePathInXlmSoapIn" />
+      <wsdl:output message="tns:setFilePathInXlmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="returnFieldInXml">
+      <wsdl:input message="tns:returnFieldInXmlSoapIn" />
+      <wsdl:output message="tns:returnFieldInXmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TacheImportTest">
+      <wsdl:input message="tns:TacheImportTestSoapIn" />
+      <wsdl:output message="tns:TacheImportTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TacheImport">
+      <wsdl:input message="tns:TacheImportSoapIn" />
+      <wsdl:output message="tns:TacheImportSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EcritureFichierTxtDistant">
+      <wsdl:input message="tns:EcritureFichierTxtDistantSoapIn" />
+      <wsdl:output message="tns:EcritureFichierTxtDistantSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsimportSoap" type="tns:wsimportSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="updateXmlSetting">
+      <soap:operation soapAction="http://tempuri.org/updateXmlSetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setFilePathInXlm">
+      <soap:operation soapAction="http://tempuri.org/setFilePathInXlm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="returnFieldInXml">
+      <soap:operation soapAction="http://tempuri.org/returnFieldInXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TacheImportTest">
+      <soap:operation soapAction="http://tempuri.org/TacheImportTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TacheImport">
+      <soap:operation soapAction="http://tempuri.org/TacheImport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EcritureFichierTxtDistant">
+      <soap:operation soapAction="http://tempuri.org/EcritureFichierTxtDistant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsimportSoap12" type="tns:wsimportSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="updateXmlSetting">
+      <soap12:operation soapAction="http://tempuri.org/updateXmlSetting" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setFilePathInXlm">
+      <soap12:operation soapAction="http://tempuri.org/setFilePathInXlm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="returnFieldInXml">
+      <soap12:operation soapAction="http://tempuri.org/returnFieldInXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TacheImportTest">
+      <soap12:operation soapAction="http://tempuri.org/TacheImportTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TacheImport">
+      <soap12:operation soapAction="http://tempuri.org/TacheImport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EcritureFichierTxtDistant">
+      <soap12:operation soapAction="http://tempuri.org/EcritureFichierTxtDistant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsimport">
+    <wsdl:port name="wsimportSoap" binding="tns:wsimportSoap">
+      <soap:address location="http://localhost:2507/wsimport.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsimportSoap12" binding="tns:wsimportSoap12">
+      <soap12:address location="http://localhost:2507/wsimport.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

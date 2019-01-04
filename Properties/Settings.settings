@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="sfwServiceTache.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="liste_wsimport_soap" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/ws_importation/wsimport.asmx</Value>
+    </Setting>
+    <Setting Name="timer_ws_importation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="timerOmni" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">120000</Value>
+    </Setting>
+    <Setting Name="listeAppelsTimerOmni" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost/OmniWs/wsMission.asmx/processMissionsCursor</Value>
+    </Setting>
+    <Setting Name="heureFixe" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">13:17:00</Value>
+    </Setting>
+    <Setting Name="listeAppelsHeureFixe" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost/ws_unis/wsctrltache.asmx/ctrlTache</Value>
+    </Setting>
+    <Setting Name="wsUsername" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="wsPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="sfwServiceTache_WSZCL00_WSZCL00" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://platon/ws_unis/WSZCL00.ASMX</Value>
+    </Setting>
+    <Setting Name="timerGet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">120000</Value>
+    </Setting>
+    <Setting Name="listeAppelsTimerGet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="timerDyn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="listeAppelsTimerDyn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="liste_wsimport" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:2507/wsimport.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

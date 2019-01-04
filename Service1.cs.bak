@@ -1,0 +1,327 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Net;
+using System.ServiceProcess;
+using System.Text;
+using System.Threading;
+using System.Timers;
+using System.Xml;
+using log4net;
+using log4net.Config;
+namespace sfwServiceTache
+{
+    public partial class Service1 : ServiceBase
+    {
+        //   ws_importation.Service1 ws_imp = new ws_importation.Service1();
+        System.Timers.Timer timerWsImportation = new System.Timers.Timer();
+        System.Timers.Timer timerCtrlTache = new System.Timers.Timer();      
+        System.Timers.Timer timerOmni = new System.Timers.Timer();
+
+        private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        
+        public Service1()
+        {
+            InitializeComponent();
+
+            XmlConfigurator.Configure(new FileInfo(AppDomain.CurrentDomain.BaseDirectory + "log4net.config"));
+            log4net.Config.XmlConfigurator.Configure();
+
+            //////////////timer//////////////
+            int result;
+            if (int.TryParse(sfwServiceTache.Properties.Settings.Default.timer_ws_importation.ToString(), out result))
+            {
+                timerWsImportation.Interval = result;
+            }
+            else
+            {
+
+                timerWsImportation.Interval = 30000;
+            }
+
+            timerWsImportation.Elapsed += new ElapsedEventHandler(Execution);
+            timerWsImportation.Start();
+
+            //////////////timer//////////////
+            if (int.TryParse(sfwServiceTache.Properties.Settings.Default.timerOmni.ToString(), out result))
+            {
+                timerOmni.Interval = result;
+            }
+            else
+            {
+
+                timerOmni.Interval = 120000;
+            }
+
+            timerOmni.Elapsed += new ElapsedEventHandler(ExecOmni);
+            timerCtrlTache.Elapsed+=new ElapsedEventHandler(ExecCheckTasks);
+            timerOmni.Start();
+            timerCtrlTache.Start();
+            doCallWsOmni();
+            doCallWsImportation();
+            doCallCheckTasks();
+        }
+
+        protected override void OnStart(string[] args)
+        {
+            log.Debug("Service tache Start");
+            calculNextTick();
+        }
+
+        protected override void OnStop()
+        {
+            log.Debug("Service Tache Stop");
+        }
+        private void calculNextTick()
+        {
+            try
+            {
+                log.Debug("Service_CRMUSAM Start");
+                TimeSpan heureTimer = new TimeSpan(sfwServiceTache.Properties.Settings.Default.heureFixe.Hours, sfwServiceTache.Properties.Settings.Default.heureFixe.Minutes, sfwServiceTache.Properties.Settings.Default.heureFixe.Seconds);
+                log.Debug("heure prévue : " + heureTimer.ToString());
+
+                TimeSpan horairePresent = new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second);
+                log.Debug("horaire présent : " + horairePresent.ToString());
+
+                TimeSpan intervall = heureTimer - horairePresent;
+                log.Debug("délai attente : " + intervall.ToString());
+
+                TimeSpan heur24 = new TimeSpan(23, 59, 00);
+
+
+                if (intervall.Ticks <= 0)
+                {
+                    log.Debug("timerCtrlTache.interval avant : " + timerCtrlTache.Interval.ToString());
+                    timerCtrlTache.Interval = ((intervall + heur24).Seconds + (intervall + heur24).Minutes * 60 + (intervall + heur24).Hours * 3600) * 1000;
+                    log.Debug("timerCtrlTache.interval après : " + timerCtrlTache.Interval.ToString() + "[" + (intervall+heur24).Hours.ToString() + ":" + (intervall+heur24).Minutes.ToString() + ":" + (intervall+heur24).Seconds.ToString() + "]");            
+                }
+                else
+                {
+                    log.Debug("timerCtrlTache.interval avant : " + timerCtrlTache.Interval.ToString());
+                    timerCtrlTache.Interval = ((intervall).Seconds + (intervall).Minutes * 60 + (intervall).Hours * 3600) * 1000;
+                    log.Debug("timerCtrlTache.interval après : " + timerCtrlTache.Interval.ToString() + "[" + (intervall).Hours.ToString() + ":" + (intervall).Minutes.ToString() + ":" + (intervall).Seconds.ToString() + "]");            
+                }
+                
+            }
+            catch (Exception ex)
+            {
+
+                log.Error(ex.Message);
+            }
+        }
+
+
+        private string getPostwww(string uri, string str)
+        {
+            string retour = "";
+
+
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
+                request.KeepAlive = false;
+                //request.Accept = "application/xml";
+                request.Method = "POST";
+                try
+                {
+                    request.Timeout = int.Parse("10000");
+                }
+                catch (Exception ex)
+                {
+                    request.Timeout = 10000;
+                    log.Error("LECTURE TIMEOUT PAR DEFAUT : " + ex.Message);
+
+                }
+
+                byte[] postBytes = Encoding.ASCII.GetBytes(str);
+                //request.ContentType = "application/xml";
+                request.ContentType = "application/x-www-form-urlencoded";
+                request.ContentLength = postBytes.Length;
+
+                Stream requestStream = request.GetRequestStream();
+
+                // now send it
+                requestStream.Write(postBytes, 0, postBytes.Length);
+                requestStream.Close();
+
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                retour = new StreamReader(response.GetResponseStream()).ReadToEnd();
+
+                log.Debug("Retour ws : [" + response.StatusCode.ToString() + ";" + response.StatusDescription + ";" + retour + "]");
+            }
+            catch (Exception ex)
+            {
+                retour = "-1:";
+
+                log.Error("Retour : [" + uri + "/" + str + "/" + ex.ToString() + "]");
+            }
+
+            return retour;
+
+        }
+
+        public string getResponseFromAWs(string url, string str)
+        {
+
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("fr-Fr");
+            //string url = siteXml.SelectSingleNode("URL_REMOTE").InnerText + "/listeProfils";
+            // string url = @ZCL40ESVisiteApp.Properties.Settings.Default.URLESVISITE + "/entreeSortieBadge";
+
+
+
+
+            string retour = getPostwww(url, str);
+
+            log.Info(retour);
+
+            try
+            {
+                XmlDocument _xmlResponse = new XmlDocument();
+                _xmlResponse.LoadXml(retour);
+                int i = 0;
+                if (_xmlResponse.FirstChild.Name.Equals("xml"))
+                {
+                    _xmlResponse.RemoveChild(_xmlResponse.FirstChild);
+                }
+                List<string> _listeRetour = new List<string>();
+                //_log.Info("xmlReal [" + _xmlResponse.InnerXml + "]");
+                foreach (XmlNode _node in _xmlResponse.ChildNodes)
+                {
+                    if (_node.Name.Equals("string"))
+                    {
+
+                        _listeRetour.Add(_node.InnerText);
+                        log.Debug("listeRetour[" + i.ToString() + "]=(" + _listeRetour[i].ToString() + ")");
+                        i++;
+
+                    }
+
+                }
+
+                string _final = _listeRetour.Count > 1 ? _listeRetour[0].ToString() + "|" + _listeRetour[1].ToString() : _listeRetour[0].ToString();
+                return _final;
+            }
+            catch (Exception ex)
+            {
+                log.Error(" No ArrayOfString :" + retour + ": " + ex.Message);
+                return "-1";
+            }
+        }
+        private void Execution(object source, ElapsedEventArgs e)
+        {
+            doCallWsImportation();
+        }
+
+        private static void doCallWsImportation()
+        {
+            if (!String.IsNullOrEmpty(sfwServiceTache.Properties.Settings.Default.liste_wsimport_soap.ToString()))
+            {
+                string[] liste_ws_importation = sfwServiceTache.Properties.Settings.Default.liste_wsimport_soap.ToString().Split(';');
+                foreach (string ws_importationUrl in liste_ws_importation)
+                {
+                    try
+                    {
+                        log.Info("AVANT APPEL ws_import à l'adresse[" + ws_importationUrl + "]");
+                        ws_importation.wsimport ws_imp = new ws_importation.wsimport();
+                        ws_imp.Url = ws_importationUrl;
+                        log.Info("RETOUR SERVICE " + ws_imp.TacheImport(""));
+                        log.Debug("APRES APPEL ws_import [" + ws_importationUrl + "]");
+                        //ws_imp.Dispose();
+                    }
+                    catch (Exception ex)
+                    {
+                        log.Error(ex.Message);
+                    }
+                }
+            }
+        }
+
+        private string appelWebClient(string url, string autoValidation)
+        {
+            string Retour = "";
+            try
+            {
+                if (autoValidation == "1")
+                {
+                    // Auto validation de la confirmation du certificat SSL
+                    ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+                    log.Debug("autoValidation");
+                }
+                // Appel du lien http
+                WebClient wc = new WebClient();
+                Retour = wc.DownloadString(new Uri(url));
+                wc.Dispose();
+            }
+            catch (Exception ex)
+            {
+                // Affiche l'exception dans la zone de résultat.
+                log.Error("appelWebClient [" + ex.ToString() + "]");
+                Retour = "ERROR";
+            }
+            return Retour;
+        }
+
+        private void ExecOmni(object source, ElapsedEventArgs e)
+        {
+            doCallWsOmni();
+        }
+
+        private void doCallWsOmni()
+        {
+            if (!String.IsNullOrEmpty(sfwServiceTache.Properties.Settings.Default.listeAppelsTimerOmni.ToString()))
+            {
+                string[] liste_ws = sfwServiceTache.Properties.Settings.Default.listeAppelsTimerOmni.ToString().Split(';');
+                foreach (string wsUrl in liste_ws)
+                {
+                    try
+                    {
+                        log.Info("AVANT APPEL ws_ à l'adresse[" + wsUrl + "]");
+
+                        log.Info("RETOUR ws " + getResponseFromAWs(wsUrl, ""));
+                        log.Debug("APRES APPEL ws_ [" + wsUrl + "]");
+                        //ws_imp.Dispose();
+                    }
+                    catch (Exception ex)
+                    {
+                        log.Error(ex.Message);
+                    }
+                }
+            }
+        }
+
+
+        private void ExecCheckTasks(object source, ElapsedEventArgs e)
+        {
+            doCallCheckTasks();
+        
+        
+        
+        }
+
+        private void doCallCheckTasks()
+        {
+            if (!String.IsNullOrEmpty(sfwServiceTache.Properties.Settings.Default.listeAppelsHeureFixe.ToString()))
+            {
+                string[] liste_ws = sfwServiceTache.Properties.Settings.Default.listeAppelsHeureFixe.ToString().Split(';');
+                foreach (string wsUrl in liste_ws)
+                {
+                    try
+                    {
+                        log.Info("AVANT APPEL ws_ à l'adresse[" + wsUrl + "]");
+
+                        log.Info("RETOUR ws " + getResponseFromAWs(wsUrl, ""));
+                        log.Debug("APRES APPEL ws_ [" + wsUrl + "]");
+                        //ws_imp.Dispose();
+                    }
+                    catch (Exception ex)
+                    {
+                        log.Error(ex.Message);
+                    }
+                }
+            }
+
+        }
+
+
+    }
+}
