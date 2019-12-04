@@ -1,18 +1,18 @@
-﻿using System;
+﻿using log4net;
+using log4net.Config;
+using System;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
-using System.Threading;
+using System.Runtime.Remoting.Messaging;
 using System.ServiceProcess;
-using System.Timers;
-using log4net;
-using log4net.Config;
-using System.Collections;
 using System.Text;
 using System.Threading;
+using System.Threading;
+using System.Timers;
 using System.Xml;
-using System.Collections.Generic;
-using System;
-using System.Runtime.Remoting.Messaging;
 
 
 namespace sfwServiceTache
@@ -31,7 +31,7 @@ namespace sfwServiceTache
         private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public ws_importation.wsimport ws_imp;
         object userState = "";
-        string retourGlb="";
+        string retourGlb = "";
         public Service1()
         {
             InitializeComponent();
@@ -86,7 +86,7 @@ namespace sfwServiceTache
 
                 timerDyn.Interval = 120000;
             }
-            
+
             timerOmni.Elapsed += new ElapsedEventHandler(ExecOmni);
             timerCtrlTache.Elapsed += new ElapsedEventHandler(ExecCheckTasks);
             timerOmni.Start();
@@ -97,7 +97,7 @@ namespace sfwServiceTache
 
             timerDyn.Elapsed += new ElapsedEventHandler(ExecDynCalls);
             timerDyn.Start();
-         
+
 
             //////////////timer rapide 2s //////////////
             timerRapide.Interval = 2000;
@@ -124,13 +124,13 @@ namespace sfwServiceTache
                 //doCallWsImportation();
                 doCallWsImportationAsynch();
                 doCallCheckTasks();
-                
+
             }
             catch (Exception ex)
             {
 
                 log.Error("APPEL AU DEMARRAGE " + ex.Message);
-            
+
             }
         }
 
@@ -140,7 +140,7 @@ namespace sfwServiceTache
             {
 
                 ws_imp.CancelAsync(userState);
-              //  ws_imp.TacheImportCompleted -= new ws_importation.TacheImportCompletedEventHandler(this.TacheImportCompleted);
+                //  ws_imp.TacheImportCompleted -= new ws_importation.TacheImportCompletedEventHandler(this.TacheImportCompleted);
             }
             catch (Exception ex)
             {
@@ -245,8 +245,8 @@ namespace sfwServiceTache
                         log.Info("AVANT APPEL ws_import à l'adresse[" + ws_importationUrl + "]");
                         ws_imp = new ws_importation.wsimport();
                         ws_imp.Url = ws_importationUrl;
-                        log.Info("DEFAULT TIMEOUT Wsimportation"+ ws_imp.Timeout.ToString());
-                      // ws_imp.TacheImportCompleted += new ws_importation.TacheImportCompletedEventHandler(this.TacheImportCompleted);
+                        log.Info("DEFAULT TIMEOUT Wsimportation" + ws_imp.Timeout.ToString());
+                        // ws_imp.TacheImportCompleted += new ws_importation.TacheImportCompletedEventHandler(this.TacheImportCompleted);
                         object userState = "";
                         ws_imp.TacheImportAsync("", userState);
                         log.Info("RETOUR : " + (string)userState);
@@ -254,7 +254,7 @@ namespace sfwServiceTache
                     }
                     catch (Exception ex)
                     {
-                        log.Error(ex.Message);
+                        log.Error(ex.ToString());
                     }
                 }
             }
@@ -290,8 +290,20 @@ namespace sfwServiceTache
                         {
                             WSZCL00.Authentication header = new WSZCL00.Authentication();
 
-                            header.Username = sfwServiceTache.Properties.Settings.Default.wsUsername;
-                            header.Password = SafeWare.Chiffrement.dechiffre(sfwServiceTache.Properties.Settings.Default.wsPassword, SafeWare.Chiffrement.password); // "toto";
+                            header.Username = SafeWare.Chiffrement.Dechiffre(sfwServiceTache.Properties.Settings.Default.wsUsername, SafeWare.Chiffrement.password); //
+                            //sfwServiceTache.Properties.Settings.Default.wsUsername; //"toto";
+                            if (header.Username == "")
+                            {
+                                header.Username = SafeWare.Chiffrement.DechiffreOld(sfwServiceTache.Properties.Settings.Default.wsUsername, SafeWare.Chiffrement.password); //
+                                header.Password = SafeWare.Chiffrement.DechiffreOld(sfwServiceTache.Properties.Settings.Default.wsPassword, SafeWare.Chiffrement.password); // "toto";
+                            }
+                            else
+                            {
+                                header.Username = SafeWare.Chiffrement.Dechiffre(sfwServiceTache.Properties.Settings.Default.wsUsername, SafeWare.Chiffrement.password); //
+                                header.Password = SafeWare.Chiffrement.Dechiffre(sfwServiceTache.Properties.Settings.Default.wsPassword, SafeWare.Chiffrement.password); // "toto";
+                            }
+
+                            log.Info("**** AFTER SET HEADER [" + header.Username + ":" + header.Password + "}");
 
                             wszcl00.AuthenticationValue = header;
                         }
@@ -341,8 +353,18 @@ namespace sfwServiceTache
                         {
                             WSZCL00.Authentication header = new WSZCL00.Authentication();
 
-                            header.Username = sfwServiceTache.Properties.Settings.Default.wsUsername; //"toto";
-                            header.Password = SafeWare.Chiffrement.dechiffre(sfwServiceTache.Properties.Settings.Default.wsPassword, SafeWare.Chiffrement.password); // "toto";
+                            header.Username = SafeWare.Chiffrement.Dechiffre(sfwServiceTache.Properties.Settings.Default.wsUsername, SafeWare.Chiffrement.password); //
+                            //sfwServiceTache.Properties.Settings.Default.wsUsername; //"toto";
+                            if (header.Username == "")
+                            {
+                                header.Username = SafeWare.Chiffrement.DechiffreOld(sfwServiceTache.Properties.Settings.Default.wsUsername, SafeWare.Chiffrement.password); //
+                                header.Password = SafeWare.Chiffrement.DechiffreOld(sfwServiceTache.Properties.Settings.Default.wsPassword, SafeWare.Chiffrement.password); // "toto";
+                            }
+                            else
+                            {
+                                header.Username = SafeWare.Chiffrement.Dechiffre(sfwServiceTache.Properties.Settings.Default.wsUsername, SafeWare.Chiffrement.password); //
+                                header.Password = SafeWare.Chiffrement.Dechiffre(sfwServiceTache.Properties.Settings.Default.wsPassword, SafeWare.Chiffrement.password); // "toto";
+                            }
 
                             wszcl00.AuthenticationValue = header;
                         }
@@ -405,7 +427,7 @@ namespace sfwServiceTache
                 //request.ContentType = "application/xml";
                 request.ContentType = "application/x-www-form-urlencoded";
                 request.ContentLength = postBytes.Length;
-                
+
                 Stream requestStream = request.GetRequestStream();
 
                 // now send it
@@ -432,7 +454,7 @@ namespace sfwServiceTache
             try
             {
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
-               // request.KeepAlive = false;
+                // request.KeepAlive = false;
 
                 request.Method = "GET";
                 try
@@ -445,30 +467,30 @@ namespace sfwServiceTache
                     log.Error("LECTURE TIMEOUT PAR DEFAUT : " + ex.Message);
 
                 }
-                 
+
                 request.BeginGetResponse(new AsyncCallback(FinishWebRequest), request);
             }
             catch (Exception ex)
-            {                
+            {
 
                 log.Error("Retour : [" + uri + "/" + ex.ToString() + "]");
             }
 
 
-           
+
         }
 
         void FinishWebRequest(IAsyncResult result)
         {
             log.Debug("BEFORE FinishWebRequest");
-           
+
             HttpWebResponse response = (result.AsyncState as HttpWebRequest).EndGetResponse(result) as HttpWebResponse;
             retourGlb = new StreamReader(response.GetResponseStream()).ReadToEnd();
             log.Debug("Retour FinishWebRequest : [" + response.StatusCode.ToString() + ";" + response.StatusDescription + ";" + retourGlb + "]");
         }
 
         private string getwwwAsync(string uri)
-        {   
+        {
             log.Debug("BEFORE getwwwAsync");
             StartWebRequest(uri);
             log.Debug("AFTER StartWebRequest");
@@ -525,8 +547,8 @@ namespace sfwServiceTache
 
 
             StartWebRequest(url);   // GET
-            //string retour = getPostwww(url, str);
-           string retour ="<?xml version=\"1.0\"?><string>OK</string>";
+                                    //string retour = getPostwww(url, str);
+            string retour = "<?xml version=\"1.0\"?><string>OK</string>";
             log.Info(retour);
 
             try
@@ -647,10 +669,10 @@ namespace sfwServiceTache
             {
                 string[] liste_ws = sfwServiceTache.Properties.Settings.Default.listeAppelsTimerOmni.ToString().Split(';');
                 foreach (string wsUrl in liste_ws)
-                {   
+                {
                     try
                     {
-                         
+
                         log.Info("AVANT APPEL ws_ à l'adresse[" + wsUrl + "]");
 
                         log.Info("RETOUR ws " + getResponseFromAWs(wsUrl, ""));
@@ -694,7 +716,7 @@ namespace sfwServiceTache
                     {
                         log.Info("AVANT APPEL ws_ à l'adresse[" + wsUrl + "]");
                         log.Info("retour APPEL doExecGetCalls" + getwwwAsync(wsUrl) + "]");
-                     //   log.Info("RETOUR ws " + getResponseAWs(wsUrl));
+                        //   log.Info("RETOUR ws " + getResponseAWs(wsUrl));
 
                         //ws_imp.Dispose();
                     }
@@ -727,7 +749,7 @@ namespace sfwServiceTache
                     }
                 }
             }
-       
+
 
         }
 
